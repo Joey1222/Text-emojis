@@ -13,7 +13,7 @@ setuptools.setup(
   long_description=long_description,
   long_description_content_type="text/markdown",
   url=
-  "https://github.com/pypa/sampleproject",  # Link your package website here! (most commonly a GitHub repo)
+  "https://github.com/Joey1222/Text-emojis",  # Link your package website here! (most commonly a GitHub repo)
   packages=setuptools.find_packages(
   ),  # A list of all packages for Python to distribute!
   classifiers=[
@@ -23,4 +23,5 @@ setuptools.setup(
   ],  # Enter meta data into the classifiers list!
   python_requires=
   '>=3.6',  # The version requirement for Python to run your package!
+  requires=['colorama']
 )
